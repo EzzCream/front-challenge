@@ -1,0 +1,34 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+#parent {
+	box-shadow: 0 0 15px 15px rgb(224, 224, 224);
+	border-radius: 10px;
+	margin: 20px;
+}
+main {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-direction: column;
+}
+button {
+	background-color: transparent;
+	border: 1px solid black;
+	padding: 10px;
+	border-radius: 5px;
+}
+button:hover {
+	border: 1px solid rgb(167, 155, 201);
+	box-shadow: 0 0 15px 15px rgba(224, 224, 224, 0.397);
+	transition: 0.2s;
+}
+.draggable {
+	border-radius: 10px;
+	display: flex;
+	justify-content: center;
+}
+.draggable > button {
+	margin: 10px;
+}
